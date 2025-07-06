@@ -37,28 +37,25 @@ Modular Structure: Easily extendable with new penetration testing features.
 
 Simple CLI Interface: Easy-to-use command-line interface for quick security assessments.
 # USE CASES:
-1. Port Scanning
-To scan for open ports on a target:
+ 1. Network Security Audits
+Identify open ports and exposed services on internal or external hosts.
 
-Penetration Testing Toolkit
-1. Port Scanner
-2. Brute Force Login
-Select a module (1/2): 1
-Enter target IP or domain: example.com
-Enter ports to scan (comma-separated): 22,80,443
-Example Output:
-[OPEN] Port 22 is open on example.com
-[OPEN] Port 80 is open on example.com
-[OPEN] Port 443 is open on example.com
-2. Brute Force Login
-To attempt a brute-force attack on a login page:
+Detect unnecessary or misconfigured services that may be vulnerable.
 
-Penetration Testing Toolkit
-1. Port Scanner
-2. Brute Force Login
-Select a module (1/2): 2
-Enter login URL: https://example.com/login
-Enter username: admin
-Enter password list (comma-separated): password123, admin123, qwerty
-Example Output:
-[SUCCESS] Password found: admin123
+✅ 2. Vulnerability Assessment Prep
+Perform basic reconnaissance before using advanced vulnerability scanners (e.g., Nessus, OpenVAS).
+
+Identify weak credentials using brute-force attacks on services like FTP.
+
+✅ 3. Ethical Hacking Training
+Teach students or professionals the basics of ethical hacking and penetration testing.
+
+Demonstrate real-world concepts like banner grabbing, brute-forcing, and ARP scanning.
+
+✅ 4. Red Team Reconnaissance
+Gather low-level intel on targets before launching an attack simulation.
+
+Discover live hosts and open services in a target network.
+
+✅ 5. Blue Team Defense Testing
+Allow defenders to simulate common attacks and verify if their detection systems (IDS/IPS) are triggering alerts.
