@@ -27,6 +27,7 @@ os -	        (Optional) File path, system calls, etc.
 time -	      (Optional) Add delays, measure response times
 
 2. Third-Party Python Libraries
+
 Library	      Purpose	                                                            Install with
 scapy    -  	Network packet crafting and sniffing (used in network scanning)	 -  pip install scapy
 
