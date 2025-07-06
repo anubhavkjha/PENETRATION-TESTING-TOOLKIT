@@ -30,4 +30,13 @@ time -	      (Optional) Add delays, measure response times
 Library	      Purpose	                                                            Install with
 scapy    -  	Network packet crafting and sniffing (used in network scanning)	 -  pip install scapy
 
-Note: scapy is powerful and widely used in ethical hacking and network testing.
+# KEY FEATURES:
+Port Scanner: Scans specified ports on a target host to identify open services.
+
+Brute Force Login: Attempts to crack web-based authentication using a username and a list of potential passwords.
+
+Password Generator: Creates possible password combinations using custom character sets and lengths.
+
+Modular Structure: Easily extendable with new penetration testing features.
+
+Simple CLI Interface: Easy-to-use command-line interface for quick security assessments.
