@@ -26,11 +26,6 @@ os -	        (Optional) File path, system calls, etc.
 
 time -	      (Optional) Add delays, measure response times
 
-2. Third-Party Python Libraries
-
-Library	      Purpose	                                                            Install with
-scapy    -  	Network packet crafting and sniffing (used in network scanning)	 -  pip install scapy
-
 # KEY FEATURES:
 Port Scanner: Scans specified ports on a target host to identify open services.
 
@@ -41,3 +36,29 @@ Password Generator: Creates possible password combinations using custom characte
 Modular Structure: Easily extendable with new penetration testing features.
 
 Simple CLI Interface: Easy-to-use command-line interface for quick security assessments.
+# USE CASES:
+1. Port Scanning
+To scan for open ports on a target:
+
+Penetration Testing Toolkit
+1. Port Scanner
+2. Brute Force Login
+Select a module (1/2): 1
+Enter target IP or domain: example.com
+Enter ports to scan (comma-separated): 22,80,443
+Example Output:
+[OPEN] Port 22 is open on example.com
+[OPEN] Port 80 is open on example.com
+[OPEN] Port 443 is open on example.com
+2. Brute Force Login
+To attempt a brute-force attack on a login page:
+
+Penetration Testing Toolkit
+1. Port Scanner
+2. Brute Force Login
+Select a module (1/2): 2
+Enter login URL: https://example.com/login
+Enter username: admin
+Enter password list (comma-separated): password123, admin123, qwerty
+Example Output:
+[SUCCESS] Password found: admin123
