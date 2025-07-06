@@ -17,6 +17,7 @@ The Penetration Testing Toolkit is a Python-based modular security testing tool 
 Python Built-in Libraries
 
 Library       	Purpose
+
 socket -	    Network communication (port scanning, banner grabbing)
 
 argparse -	  Command-line interface for toolkit
