@@ -16,7 +16,7 @@ The Penetration Testing Toolkit is a Python-based modular security testing tool 
 # TOOLS AND LIBRARIES USED:
 Python Built-in Libraries
 
-Library       	Purpose
+Library   -    	Purpose
 
 socket -	    Network communication (port scanning, banner grabbing)
 
