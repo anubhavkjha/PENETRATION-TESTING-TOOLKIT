@@ -15,7 +15,8 @@ A TOOLKIT WITH MULTIPLE MODULES (E.G., PORT SCANNER, BRUTE-FORCER) FOR PENETRATI
 The Penetration Testing Toolkit is a Python-based modular security testing tool designed for ethical hacking and cybersecurity professionals. It includes multiple modules such as a port scanner and a brute-force attack tool to help identify vulnerabilities in network security and authentication mechanisms.
 # TOOLS AND LIBRARIES USED:
 Python Built-in Libraries
-Library     	Purpose
+
+Library       	Purpose
 socket -	    Network communication (port scanning, banner grabbing)
 
 argparse -	  Command-line interface for toolkit
@@ -41,7 +42,7 @@ Simple CLI Interface: Easy-to-use command-line interface for quick security asse
 Identify open ports and exposed services on internal or external hosts.
 
 Detect unnecessary or misconfigured services that may be vulnerable.
-
+ 
 2. Vulnerability Assessment Prep
 Perform basic reconnaissance before using advanced vulnerability scanners (e.g., Nessus, OpenVAS).
 
