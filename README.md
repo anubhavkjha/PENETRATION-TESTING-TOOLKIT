@@ -11,5 +11,6 @@
 
 *MENTOR* : NEELA SANTOSH
 # DESCRIPTION
-A TOOLKIT WITH MULTIPLE MODULES (E.G., PORT SCANNER, BRUTE-FORCER) FOR PENETRATION TESTING
+A TOOLKIT WITH MULTIPLE MODULES (E.G., PORT SCANNER, BRUTE-FORCER) FOR PENETRATION TESTING.
+
 The Penetration Testing Toolkit is a Python-based modular security testing tool designed for ethical hacking and cybersecurity professionals. It includes multiple modules such as a port scanner and a brute-force attack tool to help identify vulnerabilities in network security and authentication mechanisms.
